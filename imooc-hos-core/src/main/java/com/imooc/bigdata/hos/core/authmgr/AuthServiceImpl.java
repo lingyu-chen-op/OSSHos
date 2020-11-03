@@ -14,7 +14,7 @@ import com.imooc.bigdata.hos.core.authmgr.model.ServiceAuth;
 import com.imooc.bigdata.hos.core.authmgr.model.TokenInfo;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 @Transactional
 @Service("authServiceImpl")

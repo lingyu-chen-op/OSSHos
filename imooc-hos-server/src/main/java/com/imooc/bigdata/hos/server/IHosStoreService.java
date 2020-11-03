@@ -10,7 +10,7 @@ import com.imooc.bigdata.hos.common.HosObjectSummary;
 import com.imooc.bigdata.hos.common.ObjectListResult;
 
 /**
- * Created by jixin on 18-3-13.
+ * Created by Lingyu on 18-3-13.
  */
 public interface IHosStoreService {
 

@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.imooc.bigdata.hos.mybatis.HosDataSourceConfig;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @Import(HosDataSourceConfig.class)

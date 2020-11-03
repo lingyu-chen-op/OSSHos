@@ -6,7 +6,7 @@ import com.imooc.bigdata.hos.common.BucketModel;
 import com.imooc.bigdata.hos.core.usermgr.model.UserInfo;
 
 /**
- * Created by jixin on 18-3-13.
+ * Created by Lingyu on 18-3-13.
  */
 public interface IBucketService {
 

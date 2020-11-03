@@ -20,7 +20,7 @@ import com.imooc.bigdata.hos.core.usermgr.model.UserInfo;
 import com.imooc.bigdata.hos.web.security.ContextUtil;
 
 /**
- * Created by jixin on 18-3-14.
+ * Created by Lingyu on 18-3-14.
  */
 @RestController
 @RequestMapping("hos/v1/sys/")

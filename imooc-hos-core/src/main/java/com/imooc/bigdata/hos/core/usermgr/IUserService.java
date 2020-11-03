@@ -3,7 +3,7 @@ package com.imooc.bigdata.hos.core.usermgr;
 import com.imooc.bigdata.hos.core.usermgr.model.UserInfo;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 public interface IUserService {
 

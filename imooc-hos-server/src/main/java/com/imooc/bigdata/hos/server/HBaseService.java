@@ -27,7 +27,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 import com.imooc.bigdata.hos.core.ErrorCodes;
 
 /**
- * Created by jixin on 17-2-22.
+ * Created by Lingyu on 17-2-22.
  */
 public class HBaseService {
 

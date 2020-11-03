@@ -16,7 +16,7 @@ import com.imooc.bigdata.hos.mybatis.test.BaseTest;
 import com.imooc.bigdata.hos.server.dao.BucketMapper;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 public class BucketMapperTest extends BaseTest {
 
@@ -31,15 +31,15 @@ public class BucketMapperTest extends BaseTest {
 
   @Test
   public void addBucket() {
-    BucketModel bucketModel = new BucketModel("test1", "jixin", "");
+    BucketModel bucketModel = new BucketModel("test1", "Lingyu", "");
     bucketMapper.addBucket(bucketModel);
-    UserInfo userInfo = new UserInfo("jixin", "123456", SystemRole.ADMIN, "");
+    UserInfo userInfo = new UserInfo("Lingyu", "123456", SystemRole.ADMIN, "");
     userService.addUser(userInfo);
     ServiceAuth serviceAuth = new ServiceAuth();
     serviceAuth.setTargetToken(userInfo.getUserId());
     serviceAuth.setBucketName(bucketModel.getBucketName());
     authService.addAuth(serviceAuth);
-    BucketModel bucketModel2 = new BucketModel("test2", "jixin", "");
+    BucketModel bucketModel2 = new BucketModel("test2", "Lingyu", "");
     bucketMapper.addBucket(bucketModel2);
   }
 
@@ -51,7 +51,7 @@ public class BucketMapperTest extends BaseTest {
 
   @Test
   public void getUserAuthorizedBuckets() {
-    UserInfo userInfo = userService.getUserInfoByName("jixin");
+    UserInfo userInfo = userService.getUserInfoByName("Lingyu");
     List<BucketModel> bucketModels = bucketMapper.getUserAuthorizedBuckets(userInfo.getUserId());
     bucketModels.forEach(bucketModel -> {
       System.out.println(bucketModel.getBucketId() + "|" + bucketModel.getBucketName());
@@ -60,7 +60,7 @@ public class BucketMapperTest extends BaseTest {
 
   @Test
   public void deleteBucket() {
-    UserInfo userInfo = userService.getUserInfoByName("jixin");
+    UserInfo userInfo = userService.getUserInfoByName("Lingyu");
     List<BucketModel> bucketModels = bucketMapper.getUserAuthorizedBuckets(userInfo.getUserId());
     bucketModels.forEach(bucketModel -> {
       bucketMapper.deleteBucket(bucketModel.getBucketId());

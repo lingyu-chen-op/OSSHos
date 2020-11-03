@@ -16,7 +16,7 @@ import com.imooc.bigdata.hos.core.HosException;
 import com.imooc.bigdata.hos.web.security.IOperationAccessControl;
 
 /**
- * Created by jixin on 17-3-6.
+ * Created by Lingyu on 17-3-6.
  */
 @ControllerAdvice
 public class BaseController {

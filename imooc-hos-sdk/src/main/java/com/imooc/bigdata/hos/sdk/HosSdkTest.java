@@ -5,7 +5,7 @@ import java.util.List;
 import com.imooc.bigdata.hos.common.BucketModel;
 
 /**
- * Created by jixin on 18-3-16.
+ * Created by Lingyu on 18-3-16.
  */
 public class HosSdkTest {
 

@@ -13,7 +13,7 @@ import com.imooc.bigdata.hos.core.usermgr.dao.UserInfoMapper;
 import com.imooc.bigdata.hos.core.usermgr.model.UserInfo;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 @Transactional
 @Service("userServiceImpl")

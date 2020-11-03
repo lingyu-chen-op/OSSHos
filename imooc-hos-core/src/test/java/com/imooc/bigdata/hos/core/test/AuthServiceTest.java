@@ -13,7 +13,7 @@ import com.imooc.bigdata.hos.core.authmgr.model.TokenInfo;
 import com.imooc.bigdata.hos.mybatis.test.BaseTest;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 public class AuthServiceTest extends BaseTest {
 
@@ -23,13 +23,13 @@ public class AuthServiceTest extends BaseTest {
 
   @Test
   public void addToken() {
-    TokenInfo tokenInfo = new TokenInfo("jixin");
+    TokenInfo tokenInfo = new TokenInfo("Lingyu");
     authService.addToken(tokenInfo);
   }
 
   @Test
   public void refreshToken() {
-    List<TokenInfo> tokenInfos = authService.getTokenInfos("jixin");
+    List<TokenInfo> tokenInfos = authService.getTokenInfos("Lingyu");
     tokenInfos.forEach(tokenInfo -> {
       authService.refreshToken(tokenInfo.getToken());
     });
@@ -37,7 +37,7 @@ public class AuthServiceTest extends BaseTest {
 
   @Test
   public void deleteToken() {
-    List<TokenInfo> tokenInfos = authService.getTokenInfos("jixin");
+    List<TokenInfo> tokenInfos = authService.getTokenInfos("Lingyu");
     if (tokenInfos.size() > 0) {
       authService.deleteToken(tokenInfos.get(0).getToken());
     }
@@ -45,7 +45,7 @@ public class AuthServiceTest extends BaseTest {
 
   @Test
   public void addAuth() {
-    List<TokenInfo> tokenInfos = authService.getTokenInfos("jixin");
+    List<TokenInfo> tokenInfos = authService.getTokenInfos("Lingyu");
     if (tokenInfos.size() > 0) {
       ServiceAuth serviceAuth = new ServiceAuth();
       serviceAuth.setAuthTime(new Date());
@@ -57,7 +57,7 @@ public class AuthServiceTest extends BaseTest {
 
   @Test
   public void deleteAuth() {
-    List<TokenInfo> tokenInfos = authService.getTokenInfos("jixin");
+    List<TokenInfo> tokenInfos = authService.getTokenInfos("Lingyu");
     if (tokenInfos.size() > 0) {
       authService.deleteAuth("testBucket", tokenInfos.get(0).getToken());
     }

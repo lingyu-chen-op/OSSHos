@@ -45,7 +45,7 @@ import com.imooc.bigdata.hos.common.ObjectMetaData;
 import com.imooc.bigdata.hos.common.util.JsonUtil;
 
 /**
- * Created by jixin on 18-3-13.
+ * Created by Lingyu on 18-3-13.
  */
 public class HosStoreServiceImpl implements IHosStoreService {
 

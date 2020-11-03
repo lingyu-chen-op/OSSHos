@@ -17,7 +17,7 @@ import org.apache.log4j.Logger;
 import com.imooc.bigdata.hos.core.HosConfiguration;
 
 /**
- * Created by jixin on 18-3-15.
+ * Created by Lingyu on 18-3-15.
  */
 public class HdfsServiceImpl implements IHdfsService {
 

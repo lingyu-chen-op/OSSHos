@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.ResultMap;
 import com.imooc.bigdata.hos.core.usermgr.model.UserInfo;
 
 /**
- * Created by jixin on 17-3-9.
+ * Created by Lingyu on 17-3-9.
  */
 @Mapper
 public interface UserInfoMapper {

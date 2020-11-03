@@ -5,7 +5,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.UUID;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 public class CoreUtil {
   public final static String SYSTEM_USER = "SuperAdmin";

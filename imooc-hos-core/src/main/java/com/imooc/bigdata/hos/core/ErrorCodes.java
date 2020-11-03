@@ -1,7 +1,7 @@
 package com.imooc.bigdata.hos.core;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 public interface ErrorCodes {
 

@@ -46,7 +46,7 @@ import com.imooc.bigdata.hos.server.IHosStoreService;
 import com.imooc.bigdata.hos.web.security.ContextUtil;
 
 /**
- * Created by jixin on 18-3-15.
+ * Created by Lingyu on 18-3-15.
  */
 @RestController
 @RequestMapping("hos/v1/")

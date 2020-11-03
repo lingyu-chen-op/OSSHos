@@ -14,7 +14,7 @@ import com.imooc.bigdata.hos.core.usermgr.model.UserInfo;
 import com.imooc.bigdata.hos.server.dao.BucketMapper;
 
 /**
- * Created by jixin on 18-3-13.
+ * Created by Lingyu on 18-3-13.
  */
 @Service("bucketServiceImpl")
 @Transactional

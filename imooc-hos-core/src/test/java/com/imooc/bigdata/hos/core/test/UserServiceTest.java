@@ -13,7 +13,7 @@ import com.imooc.bigdata.hos.core.usermgr.model.UserInfo;
 import com.imooc.bigdata.hos.mybatis.test.BaseTest;
 
 /**
- * Created by jixin on 18-3-8.
+ * Created by Lingyu on 10/01/2020.
  */
 public class UserServiceTest extends BaseTest {
 
@@ -23,13 +23,13 @@ public class UserServiceTest extends BaseTest {
 
   @Test
   public void addUser() {
-    UserInfo userInfo = new UserInfo("jixin", "123456", SystemRole.ADMIN, "no desc");
+    UserInfo userInfo = new UserInfo("Lingyu", "123456", SystemRole.ADMIN, "no desc");
     userService.addUser(userInfo);
   }
 
   @Test
   public void getUser() {
-    UserInfo userInfo = userService.getUserInfoByName("jixin");
+    UserInfo userInfo = userService.getUserInfoByName("Lingyu");
     System.out
         .println(
             userInfo.getUserId() + "|" + userInfo.getUserName() + "|" + userInfo.getPassword());
@@ -37,7 +37,7 @@ public class UserServiceTest extends BaseTest {
 
   @Test
   public void deleteUser() {
-    UserInfo userInfo = userService.getUserInfoByName("jixin");
+    UserInfo userInfo = userService.getUserInfoByName("Lingyu");
     userService.deleteUser(userInfo.getUserId());
   }
 }

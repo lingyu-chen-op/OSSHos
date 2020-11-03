@@ -19,7 +19,7 @@ import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.ResourceLoader;
 
 /**
- * Created by jixin on 17-7-10.
+ * Created by Lingyu on 17-7-10.
  */
 @Configuration
 @MapperScan(basePackages = HosDataSourceConfig.PACKAGE,

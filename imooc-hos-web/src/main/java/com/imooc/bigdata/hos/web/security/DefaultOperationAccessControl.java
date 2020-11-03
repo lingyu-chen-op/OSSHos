@@ -15,7 +15,7 @@ import com.imooc.bigdata.hos.core.usermgr.model.UserInfo;
 import com.imooc.bigdata.hos.server.IBucketService;
 
 /**
- * Created by jixin on 18-3-14.
+ * Created by Lingyu on 18-3-14.
  */
 @Component("DefaultAccessControl")
 public class DefaultOperationAccessControl implements IOperationAccessControl {
