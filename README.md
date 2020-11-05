@@ -1,2 +1,2 @@
 # OSSHos
-This poject is an oss like file storage service.
+This poject is an OSS like file storage service.
